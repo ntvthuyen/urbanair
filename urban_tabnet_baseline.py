@@ -57,7 +57,7 @@ from matplotlib import pyplot as plt
 #!cp /content/drive/MyDrive/sensor-data-clean.tar.gz .
 
 #!unzip -q fixed_data.zip
-!tar -xvf sensor-data-clean.tar.gz
+#!tar -xvf sensor-data-clean.tar.gz
 
 dataset_folders = ['Sensor01', 'Sensor02',
                    'Sensor03', 'Sensor04',
