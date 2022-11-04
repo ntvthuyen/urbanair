@@ -66,7 +66,7 @@ dataset_folders = ['Sensor01', 'Sensor02',
                    'Sensor09', 'Sensor10',
                    ]
 
-train = pd.read_csv("sensor-data-clean.csv", index_col=0)
+train = pd.read_csv("sensor-data-clean.csv")
 
 print(train)
 
